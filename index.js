@@ -27,7 +27,7 @@ const fs = require('fs');
       el.innerHTML = moment().startOf('M').format('DD.MM.YYYY') + ' - ' + moment().endOf('M').format('DD.MM.YYYY');
     });
   }, data);
-  fs.mkdirSync('invoices');
+  if (!fs.existsSync('invoices')) fs.mkdirSync('invoices');
   await page.pdf({
     path: `invoices/Invoice ${moment().format('MM-YY')}.pdf`,
     format: 'A4',
