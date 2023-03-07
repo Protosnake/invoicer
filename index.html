@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/JavaScript" src="https://MomentJS.com/downloads/moment.js"></script>
+</head>
+
+<body>
+  <h3>Invoice number <span class="invoice-number"></span></h3>
+  <table>
+    <tbody>
+      <tr>
+        <td>Date of invoice: <span class="date"></span></td>
+        <td>Дата інвойсу: <span class="date"></span></td>
+      </tr>
+      <tr>
+        <td>
+          Payment recipient\Contractor: Individual
+          Entrepreneur <span class="name"></span><br>
+          Address: <span class="address"></span><br>
+          Individual Tax Number: <span class="tax"></span><br>
+          Tel.: <span class="telephone"></span>
+        </td>
+        <td>
+          Отримувач платежу/Виконавець: ФОП <span class="name"></span><br>
+          що проживає за адресою <span class="address"></span><br>
+          ІНН: <span class="tax"></span><br>
+          Тел.: <span class="telephone"></span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Customer: <span class="customer"></span>
+        </td>
+        <td>
+          Замовник: <span class="customer"></span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Payer: <span class="payer"></span>
+        </td>
+        <td>
+          Платник: <span class="payer"></span>
+        </td>
+      </tr>
+      <tr>
+        <td>Subject of matter: Software development</td>
+        <td>Предмет: Розробка програмного забезпечення</td>
+      </tr>
+      <tr>
+        <td>Date period of providing goods/services: <span class="period"></span></td>
+        <td>Період надання товарів/послуг: <span class="period"></span></td>
+      </tr>
+      <tr>
+        <td>Currency: <span class="currency"></span></td>
+        <td>Валюта: <span class="currency"></span></td>
+      </tr>
+      <tr>
+        <td>Price (amount) of the goods/services: <span class="amount"></span></td>
+        <td>Ціна (загальна вартість) товарів послуг: <span class="amount"></span></td>
+      </tr>
+      <tr>
+        <td>
+          Recipient Bank information:
+          <span class="recepient">
+          </span>
+        </td>
+        <td>
+          Банківські атрибути отримувача:
+          <span class="recepient">
+          </span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="disclaimer">
+    Please note, that payment according to this invoice at the same time is the confirmation of performed works,
+    delivered services, and final mutual installments
+    between Parties without any additional documents. Also, it is to acknowledge that Parties have no claims to each
+    other.
+    <br>
+    Оплата згідно цього Інвойсу одночасно є підтвердженням виконаних робіт, наданих послуг, кінцевих розрахунків між
+    Сторонами і того, що Сторони
+    не мають взаємних претензій, і не вимагає підписання додаткових документів.
+  </p>
+  <table class="summary">
+    <thead>
+      <th>№</th>
+      <th>Description/Опис</th>
+      <th>Quantity/Кількість</th>
+      <th>
+        Price, (currency)/
+        Ціна, (валюта)
+      </th>
+      <th>
+        Amount, (currency)/
+        Загальна вартість,
+        (валюта)
+      </th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Software development</td>
+        <td style="text-align: center;">1</td>
+        <td><span class="amount"></span> <span class="currency"></span></td>
+        <td><span class="amount"></span> <span class="currency"></span></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Total/Усього:</td>
+        <td><span class="total"></span> <span class="currency"></span></td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="signature">
+    Supplier/Виконавець __________ <span class="name"></span>/<span class="name ua"></span>
+  </p>
+</body>
+
+</html>

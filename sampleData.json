@@ -1,0 +1,21 @@
+{
+  "name": {
+    "en": "",
+    "ua": ""
+  },
+  "address": {
+    "en": "",
+    "ua": ""
+  },
+  "tax": "",
+  "telephone": "",
+  "customer": "",
+  "payer": "",
+  "currency": "",
+  "amount": "",
+  "total": "",
+  "recepient": {
+    "en": "",
+    "ua": ""
+  }
+}
